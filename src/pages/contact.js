@@ -3,9 +3,9 @@ import { Link } from 'gatsby';
 
 export default () => (
   <div>
-    Welcome to Gatsby I am learning Gatsby
+    Contact Us
     <p>
-      <Link to="/contact">Contact Us</Link>
+      <Link to="/">Go to Home</Link>
     </p>
   </div>
 );
