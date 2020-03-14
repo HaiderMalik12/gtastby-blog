@@ -1,8 +1,9 @@
 import React from 'react';
+import Header from './header';
 
 const Layout = ({ children }) => (
-  <div style={{ margin: '0 auto', maxWidth: 650, padding: `0 1rem` }}>
-    <header>LearnGatsby</header>
+  <div style={{ margin: '0 auto' }}>
+    <Header></Header>
     <main>{children}</main>
     <footer>This is footer</footer>
   </div>
