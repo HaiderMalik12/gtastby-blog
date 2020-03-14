@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
       </Helmet>
       <Header></Header>
       <main>{children}</main>
-      <footer>This is footer</footer>
+      {/* <footer>This is footer</footer> */}
     </div>
   );
 };
