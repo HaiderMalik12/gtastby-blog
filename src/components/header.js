@@ -7,7 +7,7 @@ const Header = () => (
       <Link className="navbar-item" to="/">
         LearnGatsby
       </Link>
-      <a
+      <Link
         role="button"
         className="navbar-burger burger"
         aria-label="menu"
@@ -17,7 +17,7 @@ const Header = () => (
         <span aria-hidden="true" />
         <span aria-hidden="true" />
         <span aria-hidden="true" />
-      </a>
+      </Link>
     </div>
     <div id="navbarBasicExample" className="navbar-menu">
       <div className="navbar-start">
